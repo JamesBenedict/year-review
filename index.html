@@ -14,8 +14,12 @@
        href="http://duvq7ua50whdw.cloudfront.net/20151014QyeoL4yWsx/dist/img/favicon.ico">
 
 	<!-- below is the link to the image facebook will pull as the preview to your article -->
-	<meta property="og:image"
-	content="img/header.lg.jpg"/>
+	<meta property="og:url" content="..."/>
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="..." />
+	<meta property="og:description" content="..."/>
+	<meta property="og:site_name" content="IDS News">
+	<meta property="og:image" content="..."/>
 
 	<!-- STYLES make sure ids.css is the last style loaded, unless a custom library you're using requires its style loaded last. Do not make any alterations to it without talking to me first. -->
 	<link rel="stylesheet" href="css/reset.css">
@@ -41,7 +45,7 @@
   <!-- End Google Tag Manager --> 
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -50,27 +54,16 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
      		</button>
-     		<a class="navbar-brand" href="http://www.idsnews.com/" target="_blank" style="color:white">IDS</a>
-     		<a class="navbar-headline-mobile" href="#" target="_blank" style="color:white">Your Headline Here</a>
+     		<a class="navbar-brand" href="http://www.idsnews.com/" target="_blank" style="color:white"><img src="https://s3.amazonaws.com/media.ids/60558_idslogoo.png" id="IDS" alt="IDS"></a>
+     		<a class="navbar-headline-mobile" href="#" target="_blank" style="color:black">Semester in Review</a>
 
 		</div> <!-- end of navbar header -->
 
 		<!-- Collect the nav links, forms and otehr content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li><span class="nav-headline">Your Headline Here:</span></li>
-				<li class="dropdown">
-					<a href="#section1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Section I<span class="caret"></span></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="#section2">Section II</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#section3">Section III</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#section4">Section IV</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#section5">Section V</a></li>
-			          </ul>
-				</li>
+				<li><span class="nav-headline">Semester in Review</span></li>
+				
 
 				
 			</ul>
@@ -82,57 +75,51 @@
 	</div> <!-- end of continer-fluid -->
   </nav>
 
-
-
-<div class="header-visual">
- <!-- Leading visual should be placed as the background under .led in stlye.css  -->
-</div>
-
 <div class="container-fluid">
 	<a name="intro"></a>
 
 	<div class="row intro"> <!-- intro row -->
 		<div class="col-md-offset-1 col-md-10 headline"> <!-- intro column -->
-			<h1>Headline</h1>
+			<h1 class="sixteen">16</h1>
+			<h1>of our best</h1>
+			<h3>from the last 16 weeks</h3>
 		</div>
 
 	  	<div class="col-md-offset-1 col-md-10 led">
-	  		<h2>Subhead</h2>
+	  		
 	  	</div>
 		
 		<div class="col-xs-12 byline-mobile">
-			<h6>Story by <span class="name">TK</span></h6>
-			<h6>Photos by <span class="name">TK</span></h6>
-			<h6>Designed by <span class="name">TK</span></h6>
-	  		
+			<h6>By James Benedict and Anna Boone</h6>
 	  		<!-- Special thanks to Kathrine Schulze @kas_schulze for developing the orginial build out with me for Megan Jula's story Waiting for Help. Much of this template is adapted from our work last semested, and I couldn't of done it without her.-->
 	  	</div>
 	</div> <!-- end of intro row -->
 
 
 	<div class="row article">
-		<div class="col-md-offset-1 col-md-6 body-copy">
-			<p><span class="dropcap">U</span>se this as the starting index page for your projects. Copy code from <a href="https://github.com/JamesBenedict/ids-buildout-template">the template</a> into this html page to get started. Make sure if the content needs a specifc css or js files to also call those in. Everything should be working on the template page, so use it as reference.</p> 
+
+		<div class="col-md-12 body-copy">
+			<div class="byline">
+				<h6>By James Benedict and Anna Boone</h6>
+			</div>
+
+			<p><span class="dropcap">T</span>his is some bullshit intro. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec sapien in massa convallis porttitor. Donec lobortis nunc ac efficitur ultricies. Aenean vitae diam ac ipsum lacinia tincidunt sed eget velit. Nam sed augue quis ex pretium tincidunt. Vestibulum et nisl vehicula, tempor ligula sed, aliquam arcu. Vestibulum eu nulla pellentesque, dapibus tellus vitae, rutrum ipsum. Aliquam auctor quam ut ante ultrices blandit. Nullam euismod massa aliquam imperdiet volutpat. Morbi condimentum at nunc vel ullamcorper.</p> 
+		</div>
+
+		<div class="col-md-12 body-copy">
+			<figure>
+				<img src="https://s3.amazonaws.com/media.ids/60197_atopanorama_webo.jpg" alt="ato house">
+			</figure>
 		</div>
 
 		<div class="col-md-4 sidebar">
-			<div class="byline">
-				<h6>Story by <span class="name">TK</span></h6>
-				<h6>Photos by <span class="name">TK</span></h6>
-				<h6>Designed by <span class="name">TK</span></h6>
-			</div>
+			
 		</div>
 
 
 	</div>
 
-	 <div class="row contributors">
-			<div class="col-sm-offset-1 col-sm-3">
-				<h3>Contributors</h3>
-					<h6>James Benedict</h6>
-					<p>Head Developer | <a href="https://twitter.com/jamesgbenedict">@jamesgbenedict</a></p>
-			</div>
-	</div> <!-- end of row contributors -->
+	 
 </div> <!-- end of container fluid -->
 
 <footer>

@@ -19,32 +19,25 @@
 		line-height: .8em;
 		margin-top: 0.04em;
 		margin-right: .1em;
-		margin-bottom: 0;
 		padding: 0;
-		color:#C1767C;
 	}
 
-.headline{
-	margin-top: 4em;
-}
-#IDS { width: 60%;}
 
-.visual{
-	margin-bottom: 3em;
+#IDS {
+	width: 60%;
 }
 
-.visual img{
-	margin: 10px;
-	width: 100%;
-	height: auto;
-}
 
-.visual figcaption{
+.navbar-headline-mobile{
 	text-align: center;
-	
-	padding-left: 1em;
-	padding-right: 1em;
 }
+
+h1 .test{
+	font-size: 10em;
+}
+
+
+
 
 	
 /* Extra small devices (phones, up to 480px) */
