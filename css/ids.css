@@ -26,11 +26,11 @@ Assume anything not under a media query is for .col-xs */
 
 	/*h2 is the italicized subhead.*/
 	h2{
-		font-size: 1.8em;
-		line-height: 1.4em;
-/*		color: #939393;
-*/		margin-bottom: 1em;
-		font-weight: 300;
+		font-family: 'Roboto Slab', serif;
+		font-size: 6em;
+		font-weight: 400;		
+		margin-bottom: .5em;
+		text-align: center;
 	}
 	
 	h3{
@@ -131,6 +131,16 @@ Assume anything not under a media query is for .col-xs */
 		float: right;
 	}
 
+
+	.big img{
+		width: 80%;
+		margin: auto;
+	}
+
+	.big figcaption{
+		width: 82%;
+		margin-left: 10%;
+	}
 	
 
 
@@ -259,10 +269,17 @@ Assume anything not under a media query is for .col-xs */
 		max-width: 100%;
 		margin: 0 auto;
 	}
-	
-	.body-copy p{
+
+	.content{
 		max-width: 50%;
 		margin: 0 auto;
+	}
+	
+	
+
+	.body-copy ul{
+		padding-left: 3%;
+
 	}
 /*sidebar 4 columns*/
 
