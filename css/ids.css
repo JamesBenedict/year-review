@@ -32,11 +32,14 @@ Assume anything not under a media query is for .col-xs */
 		margin-bottom: .3em;
 		text-align: center;
 	}
-	
-	h3{
+
+	#narrow{
+		max-width: 80%;
+		text-align: center;
+		margin: 0 auto;
 
 	}
-
+	
 	h4{
 		font-weight: 500;
 	}
@@ -250,15 +253,41 @@ Assume anything not under a media query is for .col-xs */
 
 	}
 
-	a {
+	a{
+		text-decoration: none;
+	}
+
+	li a {
 		text-decoration: underline;
 		color: #4b4b4b;
 	}
 
 	a:hover {
-		color: #ADADAD;
+		text-decoration: none;
+		border-bottom: 1em;
+		color: #4b4b4b;
 	}
 
+	h2:hover{	
+		text-decoration: underline;	
+		color: #326891;	
+	}
+
+	h4:hover{
+		text-decoration: underline;
+		color: #326891;
+	}
+
+
+
+/*a:hover:after {
+    content: "";
+    border-bottom: 2px solid #ec6713;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+}*/
 	.lastelement {
 		margin-bottom: 10em;
 	}
@@ -303,7 +332,9 @@ Assume anything not under a media query is for .col-xs */
 	.content{
 		max-width: 50%;
 		margin: 0 auto;
+		margin-bottom: 10em;
 	}
+
 	
 	.center {
 		text-align: center;
@@ -431,7 +462,7 @@ Assume anything not under a media query is for .col-xs */
 	font-weight: 500;
 }
 
-	.headline h4
+	
 
 	.pulledquote{
 		padding-left: 20px;
