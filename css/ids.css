@@ -381,7 +381,24 @@ Assume anything not under a media query is for .col-xs */
 	font-size: 30em;
 	margin: 0;
 	margin-top: .2em;
+	font-weight: 100;
 }
+
+.ofour {
+	font-weight: 500;
+}
+
+.from {
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-top-width: 30%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Roboto Slab';
+	font-weight: 100;
+
+}
+
 	.headline h4
 
 	.pulledquote{
