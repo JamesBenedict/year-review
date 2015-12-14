@@ -461,10 +461,11 @@ Assume anything not under a media query is for .col-xs */
 
 	
 	.headline h1{
-		margin-top: -.2em;
+		margin-top: 0em;
+
 	}
 	h1.sixteen{
-	font-size: 10em;
+	font-size: 7.2em;
 	margin: 0;
 	margin-top: 1em;
 	font-weight: 100;
