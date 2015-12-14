@@ -28,8 +28,8 @@ Assume anything not under a media query is for .col-xs */
 	h2{
 		font-family: 'Roboto Slab', serif;
 		font-size: 6em;
-		font-weight: 400;		
-		margin-bottom: .5em;
+		font-weight: 300;		
+		margin-bottom: .3em;
 		text-align: center;
 	}
 	
@@ -38,7 +38,7 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 	h4{
-		font-weight: bold;
+		font-weight: 500;
 	}
 
 	h5{
@@ -52,6 +52,7 @@ Assume anything not under a media query is for .col-xs */
 		font-family: 'lato', serif;
 		font-size: 16px;
 		line-height: 1.5em;
+		margin-bottom: 2.5em;
 
 		
 	}
@@ -66,6 +67,9 @@ Assume anything not under a media query is for .col-xs */
 		color: #1F5B83;
 	}
 
+	.block {
+		display: block;
+	}
 
 
 	/*We're never gonna change body copy though*/
@@ -142,7 +146,11 @@ Assume anything not under a media query is for .col-xs */
 		margin-left: 10%;
 	}
 	
-
+	.introparagraph {
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 8em;
+	}
 
 	.pulledquote{
 		display: none;
@@ -184,6 +192,8 @@ Assume anything not under a media query is for .col-xs */
 	.navbar {
 	 margin-bottom: 50px;
 	 color: black;
+	 background-color: #fff;
+	 text-align: center;
 
 	}
 
@@ -192,12 +202,18 @@ Assume anything not under a media query is for .col-xs */
 	  color: white;
 	  font-weight: bold;
 	  padding-left: 1em;
+	  text-align: center;
+
 	}
 
+	.navbar-headline {
+		text-align: center;
+	}
 
 
 	nav{
 		margin-bottom: 500px;
+		text-align: center;
 	}
 	
 	
@@ -213,13 +229,14 @@ Assume anything not under a media query is for .col-xs */
 
 	ul.navbar-nav li{
 		display: inline-block;
+		text-align: center;
 	}
 
 	.navbar-headline-mobile {
 		font-family: 'lato', serif;
 		text-decoration: none;
 		text-align: center;
-		margin-left: 2em;
+		margin-left: -3em;
 		width: 100%;
 		line-height: 50px;
 	}
@@ -231,6 +248,19 @@ Assume anything not under a media query is for .col-xs */
 		width: 100%;
 		line-height: 50px;
 
+	}
+
+	a {
+		text-decoration: underline;
+		color: #4b4b4b;
+	}
+
+	a:hover {
+		color: #ADADAD;
+	}
+
+	.lastelement {
+		margin-bottom: 10em;
 	}
 
 /*intro row */
@@ -275,12 +305,17 @@ Assume anything not under a media query is for .col-xs */
 		margin: 0 auto;
 	}
 	
-	
+	.center {
+		text-align: center;
+	}
 
 	.body-copy ul{
-		padding-left: 3%;
-
+	list-style: none;
+	margin: 0;
+	padding: 0;
 	}
+
+
 /*sidebar 4 columns*/
 
 	.sidebar{
@@ -378,25 +413,22 @@ Assume anything not under a media query is for .col-xs */
 		margin-top: -.2em;
 	}
 	h1.sixteen{
-	font-size: 30em;
+	font-size: 10em;
 	margin: 0;
-	margin-top: .2em;
+	margin-top: 1em;
 	font-weight: 100;
-}
-
-.ofour {
-	font-weight: 500;
+	margin-bottom: .1em;
 }
 
 .from {
-	border-bottom: 1px solid;
-	border-top: 1px solid;
-	border-top-width: 30%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: 'Roboto Slab';
 	font-weight: 100;
+	font-size: 5.7em;
+	margin-bottom: .5em;
 
+}
+
+.yellow {
+	font-weight: 500;
 }
 
 	.headline h4
